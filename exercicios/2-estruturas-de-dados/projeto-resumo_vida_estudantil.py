@@ -12,3 +12,4 @@ lista_cursos = cursos_linkedin.split(',')
 
 # 3. Imprima na tela uma string com as informações de nome, ano_conheceu_linkedin, total de anos transcurridos, total de cursos realizados e (apenas) o primeiro e último curso.
 print(f'{nome} conheceu o LinkedIn em {ano_linkedin}, isto é, há {ano_atual - ano_linkedin} ano(s). Desde então já realizou {len(lista_cursos)} cursos, que vão de {lista_cursos[0]} a{lista_cursos[len(lista_cursos) - 1]}.')
+print(pessoa)
